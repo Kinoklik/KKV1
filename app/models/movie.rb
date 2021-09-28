@@ -12,5 +12,4 @@ class Movie < ApplicationRecord
   validates :language, presence: true
   validates :release_date, presence: true
 
-
 end
