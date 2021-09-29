@@ -1,20 +1,98 @@
-<div class="home-banner">
-  <video id="VideoBackground" poster="" autoplay muted loop>
-    <source src="https://res.cloudinary.com/dytygekbn/video/upload/v1629319118/KinoKlik_Explainer_Video_gw9hjk.mp4" type="video/mp4">
-  </video>
-    <div class="row justify-content-end">
-      <div class="col-md-6 mt-5">
-        <div class="card-wbody">
-          <h3 class="card-title">Welcome to KinoKlik!</h3>
-          <h5 class="card-text mt-4">Best Platform For Independent Movies</h5>
-            <div class="card-section">
-              <p class="text-headers-style"> Subscribe for only 4.99$/Month</p>
-              <div class="card-section">
-                <%= link_to "Subscribe", movies_path, { class: "btn btn-success" } %>
-              </div>
+<div class="container">
 
+  <div class="container">
+    <div class="row">
+      <div class="col left-col">
+        <div class="row">
+        <h1 class="heading text-center">KINOKLIK</h1>
+        <div class="col-5 left-col-1">
+          <div class="desc-1">
+            <p><strong>Discover</strong> Canadian arthouse independent films made by <strong>Canadian filmmakers</strong><p>
+          </div>
+          <div>
+             <%= button_to "JOIN KINOKLIK", new_user_registration_path, :method => "get", class: "btn sign-up-col" %>
           </div>
         </div>
+        <div class="col-5 right-col-1">
+          <div class="desc-2">
+            <p>Sell your arthouse <strong>independent films</strong> directly to your audience in Canada & around the world.<p>
+          </div>
+          <div>
+             <%= button_to "FOR FILMMAKER", new_user_registration_path, :method => "get", class: "btn sign-up-film" %>
+          </div>
+        </div>
+      </div> 
+      </div>
+      <div class="col right-col">
+      </div>
+    </div>  
+  </div>
+
+  
+  <div class="container">
+    <h1 class="sub-heading text-center">Why Kinoklik</h1>
+    <div class="row justify-content-center">
+      <div class="col-3 three-col">
+        <div class="icon text-center"><i class="fas fa-landmark fa-6x"></i></div>
+        <div class="desc text-center">As a <strong>social enterprise</strong>, we partner every film with a charity or academic institution in order to raise awareness and raise funds for non-profits and support <strong>charitable causes</strong>.</div>
+      </div>
+      <div class="col-3 three-col">
+        <div class="icon text-center"><i class="fab fa-canadian-maple-leaf fa-6x"></i></div>
+        <div class="desc text-center">To support the <strong>Canadian film revolution</strong>, we are building an online cinema of Canadian films by Canadian filmmakers for Canadians.</div>
+      </div>
+      <div class="col-3 three-col">
+        <div class="icon text-center"><i class="fas fa-dollar-sign fa-6x"></i></div>
+        <div class="desc text-center">We strive to support <strong>Canadian filmmakers & artists</strong> by allowing them to keep 100% of their profits. No aggregators, no salesmen, no middlemen.</div>
       </div>
     </div>
+  </div>
+
+
+
+  <% if false %>
+
+  <div class="container movie-section">
+  <div class="row">
+    <% @movies.each do |movie| %>
+      <div class="col-md-4 movie-cover">
+        <div class="card-container cc-hover mb-4 ">
+          <% if movie.movie_image %>
+            <%= image_tag movie.movie_image %>
+          <% end %> 
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<div class="container movie-section-2">
+  <div class="row">
+    <% @movies.each do |movie| %>
+      <div class="col-md-4 movie-cover">
+        <div class="card-container cc-hover mb-4 ">
+          <% if movie.movie_image %>
+            <%= image_tag movie.movie_image %>
+          <% end %> 
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<% end %>
+
+<div class="container single-col">
+  <div class="desc text-center">Join the Canadian film revolution on <strong>Kinoklik</strong> to support Canadian filmmakers and discover Canadian films!</div>
+  <div class="two-btn">
+  <div>
+    <%= button_to "JOIN KINOKLIK", new_user_registration_path, :method => "get", class: "btn button-1" %>
+  </div>
+  <div>
+    <%= button_to "FOR FILMMAKER", new_user_registration_path, :method => "get", class: "btn button-2" %>
+  </div>
+  </div>
+</div>
+
+
+  
 </div>

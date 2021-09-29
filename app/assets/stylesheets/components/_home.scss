@@ -1,0 +1,125 @@
+body{
+    background-color: black;
+}
+
+.heading{
+    color: white;
+    margin-top: 2rem;
+}
+
+.sub-heading{
+    color: white;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+
+.desc-1{
+    color:white;
+}
+
+.desc-2{
+    color:white;
+}
+
+.left-col{
+    margin-top: 4rem;
+}
+
+.right-col{
+    margin-top: 4rem;
+    border: 0.5px solid white;
+    border-radius: 20px;
+    height: 25rem;
+}
+
+.left-col-1{
+    margin-top: 4rem;
+    margin-right: 5rem;
+}
+
+.right-col-1{
+    margin-top: 4rem;
+}
+
+.sign-up-col{
+    background-color: #591398;
+    color: white;
+    padding: 0.5rem;
+     border-radius: 5px;
+     margin-right: 1rem;
+     margin-top: 4rem;
+}
+  
+.sign-up-film{
+    background-color: white;
+    color: #591398;
+    padding: 0.5rem;
+     border-radius: 5px;
+     margin-right: 1rem;
+     margin-top: 3rem;
+}
+
+.icon{
+      color: white;
+      margin-top: 3rem;
+      border-bottom: 0.5px solid #591398;
+      padding-bottom: 2rem;
+}
+
+.three-col {
+      border: 0.5px solid #591398;
+      border-radius: 10px;
+      margin-right: 2rem;
+}
+
+.desc{
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.movie-cover{
+    height: 100%;
+    width: 20%;
+}
+
+.movie-section{
+    margin-top: 4rem;
+}
+
+.movie-section-2{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.single-col{
+    border: 0.5px solid #591398;
+    border-radius: 10px;
+    width: 30%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.button-1{
+    background-color: #591398;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+.button-2{
+    background-color: white;
+    color: #591398;
+    padding: 0.5rem;
+     border-radius: 5px;
+     font-size: 12px;
+     margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.two-btn{
+    display: inline-flex;
+    margin-bottom: 2rem;
+}

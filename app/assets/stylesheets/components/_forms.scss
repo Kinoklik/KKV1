@@ -1,51 +1,51 @@
 abbr {
     visibility: hidden;
   }
-
+  
   .signup {
     background-color: #591398;
     margin-bottom: 1rem;
     color:white;
   }
-
+  
   .user-type {
     background-color: #591398;
     margin-left: 1.5rem;
     color:white;
   }
-
+  
   a {
     text-decoration: none;
     color: #591398;
   }
-
+  
   .tos{
     display: flex;
     margin-top: 1rem;
   }
-
+  
   .desc{
     margin-left: 0.75rem;
     color: white;
     font-size: 13px;
   }
-
+  
   .login-link {
     margin-left: 2.5rem;
     color: white;
     font-size: 13px;
   }
-
+  
   .title {
     color: white;
   }
-
+  
   .form-control {
     background: black;
     color: white;
     border: 0.5px solid gray;
   }
-
+  
   .form-input{
     color: white;
   }
@@ -70,5 +70,32 @@ abbr {
 .upload-img {
   color:white;
   width: 80%;
+  margin-top: 1rem;
+}
+
+.movie-image{
+  color:white;
+  width: 80%;
+  margin-top: 1rem;
+}
+
+label{
+  color:white;
+}
+
+.p-center {
+  color:white;
+}
+
+.p-title {
+  color:white;
+}
+
+.form-border{
+  border: 0.5px solid #591398;
+  border-radius: 10px;
+}
+
+.edit-movie{
   margin-top: 1rem;
 }

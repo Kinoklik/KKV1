@@ -39,9 +39,11 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 gem 'bootstrap-sass'
 
+gem 'rails-bootstrap-tabs', '~> 0.2.7'
 
 
 gem 'faker'
+
 
 gem 'autoprefixer-rails', '10.2.5'
 gem 'font-awesome-sass'
