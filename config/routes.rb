@@ -8,5 +8,6 @@ Rails.application.routes.draw do
   resources :movies
   resources :actors
   resources :users
+  get "/filmmaker-dashboard", to: "pages#dashboard"
 
 end
