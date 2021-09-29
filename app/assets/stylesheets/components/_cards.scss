@@ -1,3 +1,7 @@
+.text-headers-style {
+  font-family: $headers-font;
+  color: white;
+}
 
 .card-container {
   overflow: hidden;
@@ -100,7 +104,7 @@ img.card-container-img {
 .card-form .card-form-display {
   padding: 45px;
   width: 100%;
-
+  
 }
 
 .card-wbody {
