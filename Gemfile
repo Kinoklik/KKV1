@@ -28,6 +28,8 @@ gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 gem 'image_processing', '~> 1.2'
 
+gem 'rails-bootstrap-tabs', '~> 0.2.7'
+
 
  #Devise
  gem 'devise'
@@ -39,7 +41,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 gem 'bootstrap-sass'
 
-gem 'rails-bootstrap-tabs', '~> 0.2.7'
+
 
 
 gem 'faker'

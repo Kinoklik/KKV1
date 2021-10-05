@@ -49,15 +49,15 @@
 
 
 
-  <% if false %>
+  
 
   <div class="container movie-section">
   <div class="row">
     <% @movies.each do |movie| %>
       <div class="col-md-4 movie-cover">
         <div class="card-container cc-hover mb-4 ">
-          <% if movie.movie_image %>
-            <%= image_tag movie.movie_image %>
+          <% if movie.image %>
+            <%= image_tag movie.image %>
           <% end %> 
         </div>
       </div>
@@ -70,8 +70,8 @@
     <% @movies.each do |movie| %>
       <div class="col-md-4 movie-cover">
         <div class="card-container cc-hover mb-4 ">
-          <% if movie.movie_image %>
-            <%= image_tag movie.movie_image %>
+          <% if movie.image %>
+            <%= image_tag movie.image %>
           <% end %> 
         </div>
       </div>
@@ -79,7 +79,7 @@
   </div>
 </div>
 
-<% end %>
+
 
 <div class="container single-col">
   <div class="desc text-center">Join the Canadian film revolution on <strong>Kinoklik</strong> to support Canadian filmmakers and discover Canadian films!</div>
