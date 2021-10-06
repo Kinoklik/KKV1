@@ -1,0 +1,18 @@
+.container-white {
+    background-color: rgba(255, 255, 255, 0.966);
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    transition: .8s;
+    border-radius: 25px;
+}
+.container-pink {
+    background-image: linear-gradient(#FC9377, #EE9592);
+    border-radius: 25px;
+}
+
+.form-container {
+    background: white;
+    border: 0.5px solid #392643;
+    border-radius: 10px;
+    color: #392643;
+  }

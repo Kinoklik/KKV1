@@ -10,4 +10,7 @@ class PagesController < ApplicationController
   def movie_params
     params.require(:movie).permit(:title, :description,:language, :release_date, :movie_image)
   end
+
+  def upload
+  end
 end

@@ -4,3 +4,35 @@
   justify-content: space-around;
   padding-top: 1rem;
 }
+
+.btn-pink {
+  background-image: linear-gradient(#FC9377, #EE9592);
+  border-radius: 25px;
+  color: white;
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+}
+
+.btn-white {
+  background-color: white;
+  border-radius: 25px;
+  color: #392643;
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+}
+
+.btn-poster {
+  background-color: white;
+  border-radius: 25px;
+  color: #392643;
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+  width: 15rem;
+  height: 25rem;
+}
+
+.btn-banner {
+  background-color: white;
+  border-radius: 25px;
+  color: #392643;
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+  width: 30rem;
+  height: 15rem;
+}
