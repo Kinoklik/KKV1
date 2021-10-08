@@ -4,3 +4,61 @@
   justify-content: space-around;
   padding-top: 1rem;
 }
+
+.btn-pink {
+  background-image: linear-gradient(#FC9377, #EE9592);
+  border-radius: 25px;
+  color: white;
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+}
+
+.btn-white {
+  background-color: white;
+  border-radius: 25px;
+  color: #591398;
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+}
+
+.btn-picture {
+  height: 8rem;
+  width: 7rem;
+}
+
+.btn-poster {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+  border-radius: 25px;
+  color: #591398;
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+  width: 15rem;
+  height: 20rem;
+  padding: auto;
+}
+
+.btn-banner {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+  border-radius: 25px;
+  color: #591398;
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+  width: 30rem;
+  height: 15rem;
+}
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-submit {
+  padding: 1rem;
+  font-size: large;
+}
+
+.switch-checked:checked {
+  background-color: #591398;
+}

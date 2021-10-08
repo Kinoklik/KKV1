@@ -1,0 +1,308 @@
+<div class="container container-white mb-2">
+
+    <!-- ***** Putting navbar placeholder for now ***** -->
+    <nav class="navbar-expand-lg navbar-sub px-5 m-4">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav nav-tabs nav-fill" role="tablist"> <!-- TODO: Tabs are ugly, and need fixing! -->
+                    <li class="nav-item">
+                        <a 
+                            class="nav-link active"
+                            id="uploadTab"
+                            role="tab"
+                            data-mdb-toggle="tab"
+                            aria-selected="true"
+                            aria-current="page"
+                            href="#"
+                            ><i class="fas fa-upload"></i> UPLOAD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a 
+                            class="nav-link"
+                            id="financialsTab"
+                            role="tab"
+                            data-mdb-toggle="tab"
+                            aria-selected="false"
+                            href="#"
+                            ><i class="fas fa-hand-holding-usd"></i> FINANCIALS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a 
+                            class="nav-link"
+                            id="cinemaTab"
+                            role="tab"
+                            data-mdb-toggle="tab"
+                            aria-selected="false"
+                            href="#"
+                            ><i class="fas fa-film"></i> CINEMA PAGE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ***** ***** -->
+
+    <!-- ***** DistroDash dropdown and Affiliate dropdown & button ***** -->
+    <div class="row m-4 px-2">
+        <div class="col">
+            <div class="dropdown">
+                <button class="btn btn-pink dropdown-toggle rounded-pill" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    DistroDash
+                </button> <!-- Not sure what items go in here -->
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <div class="dropdown">
+                <button class="btn btn-pink dropdown-toggle rounded-pill" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Activate Affiliate Marketing (Cast & Crew)
+                </button> <!-- Not sure what items go in here -->
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <a class="btn btn-pink" role="button"><i class="fas fa-paper-plane"></i> Send Affiliate Marketing to Cast & Crew</a>
+        </div>
+    </div>
+    <!-- ***** ***** -->
+
+    <!-- ***** Forms for Film & Cast Info ***** -->
+    <div class="row px-4">
+        <!-- ***** Form for Movie Info ***** -->
+        <div class="col card-container">
+            <div class="dropdown my-4">
+                <button class="btn btn-pink dropdown-toggle rounded-pill" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Select Type
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Single Film</a></li>
+                    <li><a class="dropdown-item" href="#">Multi Series</a></li>
+                </ul>
+            </div>
+
+            <form class="mb-4">
+                <div class="mb-3 form-container">
+                    <i class="fas fa-video icon-purple px-1"></i>
+                    <input type="text" class="form-custom-input no-outline" id="filmTitle" size="32rem" placeholder="Enter Film Title">
+                </div>
+                <div class="mb-3 form-container">
+                    <i class="fas fa-ruler-horizontal icon-purple px-1"></i>
+                    <input type="text" class="form-custom-input no-outline" size="32rem" placeholder="Enter Running Length">
+                </div>
+                <div class="mb-3 form-container">
+                    <i class="fas fa-calendar-alt icon-purple px-1"></i>
+                    <input type="text" class="form-custom-input no-outline" size="32rem" placeholder="Enter Release Year">
+                </div>
+                <div class="mb-3 form-container">
+                    <i class="fas fa-book-open icon-purple px-1"></i>
+                    <input type="text" class="form-custom-input no-outline" size="32rem" placeholder="Enter Synopsis/Description">
+                </div>
+                <div class="mb-3 form-container">
+                    <i class="fas fa-building icon-purple px-1"></i>
+                    <input type="text" class="form-custom-input no-outline" size="32rem" placeholder="Enter/Confirm Production Company">
+                </div>
+                <div class="mb-3 form-container">
+                    <i class="far fa-building icon-purple px-1"></i>
+                    <input type="text" class="form-custom-input no-outline" size="32rem" placeholder="Enter/Confirm Distribution Company">
+                </div>
+                <div class="mt-1 form-container">
+                    <i class="fas fa-dollar-sign icon-purple px-1"></i>
+                    <input type="text" class="form-custom-input no-outline" id="filmTitle" size="32rem" placeholder="Enter Dollar Amount Per Film/Ep">
+                </div>
+            </form>
+
+        </div>
+        <!-- ***** ***** -->
+
+        <!-- ***** Form for Cast Info & Affiliate Links ***** -->
+        <div class="col-8 mx-4 card-container">
+            <div class="row mt-4">
+                <div class="col">
+                    <div class="mb-3">
+                        <input type="text" class="form-container" id="filmTitle" size="32rem" placeholder="Enter/Confirm Director Name">
+                    </div>
+                </div>
+                <div class="col-7">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input switch-checked" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                        <label class="btn btn-link" for="flexSwitchCheckChecked">Affiliate Link</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="mb-3">
+                        <input type="text" class="form-container" size="32rem" placeholder="Enter/Confirm Producer Name">
+                    </div>
+                </div>
+                <div class="col-7">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input switch-checked" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                        <label class="btn btn-link" for="flexSwitchCheckChecked">Affiliate Link</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="mb-3">
+                        <input type="text" class="form-container" size="32rem" placeholder="Enter Actor Name">
+                    </div>
+                </div>
+                <div class="col-7">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input switch-checked" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                        <label class="btn btn-link" for="flexSwitchCheckChecked">Affiliate Link</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="mb-3">
+                        <input type="text" class="form-container" size="32rem" placeholder="Enter Actor Name">
+                    </div>
+                </div>
+                <div class="col-7">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input switch-checked" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                        <label class="btn btn-link" for="flexSwitchCheckChecked">Affiliate Link</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="mb-3">
+                        <input type="text" class="form-container" size="32rem" placeholder="Enter Actor Name">
+                    </div>
+                </div>
+                <div class="col-7">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input switch-checked" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                        <label class="btn btn-link" for="flexSwitchCheckChecked">Affiliate Link</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a class="btn btn-pink" role="button" data-bs-toggle="collapse" href="#collapseAddActor" aria-expanded="false" aria-controls="collapseAddActor">
+                        Add Actor Name <i class="fas fa-user-plus"></i>
+                    </a>
+                </div>
+            </div>
+
+            <hr/>
+
+            <!-- ***** Collapsed Section to Add Actor Info ***** -->
+            <div class="row mb-2">  
+                <div class="col">
+                    <div class="collapse card-container" id="collapseAddActor">
+                        <div class="card card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <form>
+                                        <div class="mb-3">
+                                            <input type="text" class="form-container" id="filmTitle" placeholder="Actor Name">
+                                        </div>
+                                        <div>
+                                            <input type="text" class="form-container" placeholder="Actor Email">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col">
+                                    <form>
+                                        <div class="mb-3">
+                                            <textarea class="form-container input-bio" id="filmTitle" placeholder="Biography"></textarea>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col">
+                                    <div class="btn btn-pink btn-picture">Click to Add Picture</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    ADD NEW CAST / CREW MEMBER <!-- No idea what this is supposed to be, based on the wireframe design... -->
+                                </div>
+                                <div class="col-7">
+                                    <a class="btn btn-pink" role="button">Submit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** ***** -->
+        </div>
+        <!-- ***** ***** -->
+
+    </div>
+    <!-- ***** ***** -->
+
+    <!-- ***** Section to Upload Vids and Pics ***** -->
+    <div class="row container-pink mx-4 my-5 py-2">
+        <div class="col">
+            <div class="mb-2">
+                <a class="btn btn-white" role="button">Upload Film Master (Video File)</a>
+            </div>
+            <div>
+                <a class="btn btn-white" role="button">Upload Trailer (Video File)</a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="btn btn-poster">
+                <img src="/assets/movieposter2.png" alt="Upload Movie Poster">
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="btn btn-banner">
+                <img src="/assets/moviebanner.png" alt="Upload Movie Banner">
+            </div>
+        </div>
+    </div>
+
+    <div class="row card-container m-4 py-2">
+        <div class="col">
+            <a class="btn btn-pink" role="button">Upload Film Pictures (set stills, actors & crew)</a>
+        </div>
+        <div class="col">
+            UPLOADED PICS (Carousel, needs fixing to add pics from the user)
+            <!-- Just an idea... can be removed. Carousel which will show uploaded pics of the user. -->
+            <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel"data-bs-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/assets/placeholder1.png" alt="Placeholder Image" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/placeholder2.png" alt="Placeholder Image" class="d-block w-100">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+        </div>
+
+    </div>
+    <!-- ***** ***** -->
+
+    <div class="row m-4">
+        <div class="col btn-center">
+            <a class="btn btn-pink btn-submit" role="button">Submit</a>
+        </div>
+    </div>
+
+</div>
