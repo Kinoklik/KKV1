@@ -1,4 +1,4 @@
-<div class="container container-white mb-2">
+<div class="container container-white my-4">
 
     <!-- ***** Putting navbar placeholder for now ***** -->
     <nav class="navbar-expand-lg navbar-sub px-5 m-4">
@@ -6,35 +6,37 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="nav nav-tabs nav-fill" role="tablist"> <!-- TODO: Tabs are ugly, and need fixing! -->
                     <li class="nav-item">
-                        <a 
-                            class="nav-link active"
-                            id="uploadTab"
-                            role="tab"
-                            data-mdb-toggle="tab"
-                            aria-selected="true"
-                            aria-current="page"
-                            href="#"
-                            ><i class="fas fa-upload"></i> UPLOAD</a>
+                        <%= link_to "UPLOAD",
+                            upload_index_path,
+                            class: "nav-link active",
+                            id: "uploadTab",
+                            role: "tab",
+                            data: { toggle: "tab" },
+                            'aria-selected': true,
+                            'aria-current': "page" %>
+                    <%# <i class="fas fa-upload"></i> *** NOT SURE HOW TO EMBED ICONS INTO NAV LINKS YET *** %>
                     </li>
                     <li class="nav-item">
-                        <a 
-                            class="nav-link"
-                            id="financialsTab"
-                            role="tab"
-                            data-mdb-toggle="tab"
-                            aria-selected="false"
-                            href="#"
-                            ><i class="fas fa-hand-holding-usd"></i> FINANCIALS</a>
+                        <%= link_to "FINCANCIALS",
+                            upload_index_path,
+                            # ^ TODO: Change path. For now, this is just a placeholder!!
+                            class: "nav-link",
+                            id: "financialsTab",
+                            role: "tab",
+                            data: { toggle: "tab" },
+                            'aria-selected': false %>
+                        <%# <i class="fas fa-hand-holding-usd"></i> *** NOT SURE HOW TO EMBED ICONS INTO NAV LINKS YET ***  %>
                     </li>
                     <li class="nav-item">
-                        <a 
-                            class="nav-link"
-                            id="cinemaTab"
-                            role="tab"
-                            data-mdb-toggle="tab"
-                            aria-selected="false"
-                            href="#"
-                            ><i class="fas fa-film"></i> CINEMA PAGE</a>
+                        <%= link_to "CINEMA PAGE",
+                            upload_index_path,
+                            # ^ TODO: Change path. For now, this is just a placeholder!!
+                            class: "nav-link",
+                            id: "cinemaTab",
+                            role: "tab",
+                            data: { toggle: "tab" },
+                            'aria-selected': false %>
+                        <%# <i class="fas fa-film"></i> *** NOT SURE HOW TO EMBED ICONS INTO NAV LINKS YET ***  %>
                     </li>
                 </ul>
             </div>

@@ -18,6 +18,14 @@ abbr {
     text-decoration: none;
     color: #591398;
   }
+
+  .label-white {
+    color: white;
+  }
+
+  .label-pink {
+    color: #FC9377;
+  }
   
   .tos{
     display: flex;
@@ -41,11 +49,21 @@ abbr {
   }
   
   .form-control {
-    background: black;
-    color: white;
-    border: 0.5px solid gray;
+    margin: 0px;
+  }
+
+  .form-control:focus {
+    outline: none;
   }
   
+  .form-custom-input {
+    border-style: none;
+  }
+  
+  .no-outline:focus {
+    outline: none;
+  }
+
   .form-input{
     color: white;
   }
@@ -106,14 +124,16 @@ label{
 
 .icon-purple {
   color: #591398;
+  position: relative;
+  float: right;
+  top: 25px;
 }
 
-.form-custom-input {
-  border-style: none;
-}
-
-.no-outline:focus {
-  outline: none;
+.icon-purple-date {
+  color: #591398;
+  position: relative;
+  float: right;
+  top: 10px;
 }
 
 .input-bio {
