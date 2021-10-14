@@ -1,125 +1,351 @@
-body{
-    background-color: black;
+body {
+  background-color: black;
+  margin: 0;
 }
 
-.heading{
-    color: white;
-    margin-top: 2rem;
+.heading {
+  color: white;
+  margin-top: 2rem;
 }
 
-.sub-heading{
-    color: white;
-    margin-top: 6rem;
-    margin-bottom: 4rem;
+.sub-heading {
+  color: white;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
 }
 
-.desc-1{
-    color:white;
+.desc-1 {
+  color: white;
 }
 
-.desc-2{
-    color:white;
+.desc-2 {
+  color: white;
 }
 
-.left-col{
-    margin-top: 4rem;
+.left-col {
+  margin-top: 4rem;
 }
 
-.right-col{
-    margin-top: 4rem;
-    border: 0.5px solid white;
-    border-radius: 20px;
-    height: 25rem;
+.right-col {
+  margin-top: 4rem;
+  border: 0.5px solid white;
+  border-radius: 20px;
+  height: 25rem;
 }
 
-.left-col-1{
-    margin-top: 4rem;
-    margin-right: 5rem;
+.left-col-1 {
+  margin-top: 4rem;
+  margin-right: 5rem;
 }
 
-.right-col-1{
-    margin-top: 4rem;
+.right-col-1 {
+  margin-top: 4rem;
 }
 
-.sign-up-col{
-    background-color: #591398;
-    color: white;
-    padding: 0.5rem;
-     border-radius: 5px;
-     margin-right: 1rem;
-     margin-top: 4rem;
-}
-  
-.sign-up-film{
-    background-color: white;
-    color: #591398;
-    padding: 0.5rem;
-     border-radius: 5px;
-     margin-right: 1rem;
-     margin-top: 3rem;
+.sign-up-col {
+  background-color: #591398;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-right: 1rem;
+  margin-top: 4rem;
 }
 
-.icon{
-      color: white;
-      margin-top: 3rem;
-      border-bottom: 0.5px solid #591398;
-      padding-bottom: 2rem;
+.sign-up-film {
+  background-color: white;
+  color: #591398;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-right: 1rem;
+  margin-top: 3rem;
+}
+
+.icon {
+  color: white;
+  margin-top: 3rem;
+  border-bottom: 0.5px solid #591398;
+  padding-bottom: 2rem;
 }
 
 .three-col {
-      border: 0.5px solid #591398;
-      border-radius: 10px;
-      margin-right: 2rem;
+  border: 0.5px solid #591398;
+  border-radius: 10px;
+  margin-right: 2rem;
 }
 
-.desc{
-    margin-top: 2rem;
-    padding-bottom: 2rem;
+.desc {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-.movie-cover{
-    height: 100%;
-    width: 20%;
+.movie-cover {
+  height: 100%;
+  width: 20%;
 }
 
-.movie-section{
-    margin-top: 4rem;
+.movie-section {
+  margin-top: 4rem;
 }
 
-.movie-section-2{
-    margin-top: 1rem;
-    margin-left: 2rem;
+.movie-section-2 {
+  margin-top: 1rem;
+  margin-left: 2rem;
 }
 
-.single-col{
-    border: 0.5px solid #591398;
-    border-radius: 10px;
-    width: 30%;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+.single-col {
+  border: 0.5px solid #591398;
+  border-radius: 10px;
+  width: 30%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
-.button-1{
-    background-color: #591398;
-    color: white;
-    padding: 0.5rem;
-    border-radius: 5px;
-    font-size: 12px;
-    margin-left: 3rem;
-    margin-right: 2rem;
+.button-1 {
+  background-color: #591398;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-left: 3rem;
+  margin-right: 2rem;
 }
 
-.button-2{
-    background-color: white;
-    color: #591398;
-    padding: 0.5rem;
-     border-radius: 5px;
-     font-size: 12px;
-     margin-left: 1rem;
-    margin-right: 1rem;
+.button-2 {
+  background-color: white;
+  color: #591398;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
-.two-btn{
-    display: inline-flex;
-    margin-bottom: 2rem;
+.two-btn {
+  display: inline-flex;
+  margin-bottom: 2rem;
+}
+// fimpage styles
+
+.container-fluid {
+  color: #fff;
+  background-color: black;
+}
+.background_image {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin-left: 0;
+  margin-top: 0;
+}
+div.home-content {
+  position: absolute;
+  bottom: 10px;
+  // left: 0;
+  // right: 0;
+  // margin-left: auto;
+  // margin-right: auto;
+  padding: 40px;
+}
+
+.btnstyle {
+  background-color: #501088; /* Blue background */
+  /* Remove borders */
+  color: white; /* White text */
+  padding: 0.8rem 1.5rem; /* Some padding */
+  font-size: 17px; /* Set a font size */
+  border-radius: 5px;
+  line-height: 1rem;
+  cursor: pointer; /* Mouse pointer on hover */
+}
+.btnstyle:hover {
+  background-color: white;
+  color: #591398;
+}
+.btnstyleone {
+  background-color: gray; /* Blue background */
+  color: #fff; /* White text */
+  padding: 0.8rem 1.7rem; /* Some padding */
+  font-size: 17px;
+  font-weight: 500; /* Set a font size */
+  border-radius: 10px;
+  line-height: 1rem;
+  cursor: pointer;
+  margin-left: 20%;
+}
+.btnstyleone:focus {
+  background-color: #741ac3;
+}
+
+.btniconstyle {
+  background-color: transparent; /* Blue background */
+  border: 2px solid white; /* Remove borders */
+  color: white;
+  padding: 10px 14px; /* Some padding */
+  font-size: 17px;
+  line-height: 1rem;
+  border-radius: 5px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+.btniconstyle:hover {
+  background-color: white;
+  color: #591398;
+}
+.btn_content {
+  background-color: black;
+}
+.box {
+  height: 450px;
+}
+.left-box {
+  width: 550px;
+  height: 250px;
+  // border: 2px solid #591398;
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 60px;
+}
+
+.left-box p {
+  font-size: 15px;
+  color: #fff;
+}
+// profiles style
+.card {
+  width: 300px;
+  height: 250px;
+  border: 2px solid #591398;
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 60px;
+  margin-right: 20px;
+  align-items: center;
+  background-color: black;
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+  margin: 35px;
+}
+
+.profile-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 4px solid transparent;
+  box-shadow: 0 0 0 3px white;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #591398;
+  position: relative;
+  top: 9px;
+  margin-left: 18px;
+}
+
+.mail {
+  font-size: 15px;
+  color: grey;
+  position: relative;
+  margin-left: 18px;
+  top: 3px;
+}
+.btn {
+  background-color: #591398; /* Blue background */
+  border: white 2px;
+  color: white; /* White text */
+  padding: 0.7rem 1.5rem;
+  line-height: 1rem;
+  font-size: 17px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.btn:hover {
+  background-color: #501088;
+  color: #fff;
+}
+h6 {
+  float: right;
+  text-decoration: underline;
+}
+h6 a {
+  color: #fff;
+}
+.awardbox_one {
+  width: 150px;
+  height: 200px;
+  // border: 2px solid #591398;
+  color: #fff;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 60px;
+  text-align: center;
+}
+.awardbox_two {
+  width: 150px;
+  height: 200px;
+  // border: 2px solid #591398;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 60px;
+  font-size: 14px;
+}
+.awardbox_three {
+  width: 150px;
+  text-align: center;
+  height: 200px;
+  // border: 2px solid #591398;
+  color: #fff;
+  margin: 20px;
+  padding: 60px;
+  border-radius: 8px;
+}
+// cast and crew styling
+.cast-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  vertical-align: middle;
+  // border: 4px solid transparent;
+  // box-shadow: 0 0 0 3px white;
+}
+h4 {
+  margin-top: 60px;
+}
+// extras button styling
+.trivia_one {
+  width: 100px;
+  height: 220px;
+  // border: 2px solid #591398;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  border-radius: 12px;
+  margin: 15px;
+  padding-top: 25px;
+  padding-left: 10px;
+  text-align: center;
+}
+// category styling
+.more_like {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-evenly;
+}
+.category_image {
+  margin-bottom: 35px;
+  width: 190px;
+  height: 110px; /* Set width of cards */
+  border: none; /* Set up Border */
+  border-radius: 8px; /* Slightly Curve edges */
 }
