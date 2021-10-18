@@ -6,7 +6,7 @@
         <ul class="nav nav-tabs nav-fill" role="tablist"> <!-- TODO: Tabs are ugly, and need fixing! -->
           <li class="nav-item">
             <%= link_to "UPLOAD",
-                            upload_index_path,
+                            new_movie_path,
                             class: "nav-link active",
                             id: "uploadTab",
                             role: "tab",
@@ -17,7 +17,7 @@
           </li>
           <li class="nav-item">
             <%= link_to "FINCANCIALS",
-                            upload_index_path,
+                            new_movie_path,
                             # ^ TODO: Change path. For now, this is just a placeholder!!
                             class: "nav-link",
                             id: "financialsTab",
@@ -28,7 +28,7 @@
           </li>
           <li class="nav-item">
             <%= link_to "CINEMA PAGE",
-                            upload_index_path,
+                            new_movie_path,
                             # ^ TODO: Change path. For now, this is just a placeholder!!
                             class: "nav-link",
                             id: "cinemaTab",
@@ -130,7 +130,7 @@
         <div class="row mt-4">
           <div class="col">
             <div class="mb-3">
-            <%= f.input :language, as: :string, placeholder: "Enter/Confirm Director Name", label: false %>
+              <%= f.input :language, as: :string, placeholder: "Enter/Confirm Director Name", label: false %>
             </div>
           </div>
           <div class="col-7">
@@ -143,7 +143,7 @@
         <div class="row">
           <div class="col">
             <div class="mb-3">
-            <%= f.input :language, as: :string, placeholder: "Enter/Confirm Producer Name", label: false %>
+              <%= f.input :language, as: :string, placeholder: "Enter/Confirm Producer Name", label: false %>
             </div>
           </div>
           <div class="col-7">
@@ -156,7 +156,7 @@
         <div class="row">
           <div class="col">
             <div class="mb-3">
-            <%= f.input :language, as: :string, placeholder: "Enter Actor Name", label: false %>
+              <%= f.input :language, as: :string, placeholder: "Enter Actor Name", label: false %>
             </div>
           </div>
           <div class="col-7">
@@ -169,7 +169,7 @@
         <div class="row">
           <div class="col">
             <div class="mb-3">
-            <%= f.input :language, as: :string, placeholder: "Enter Actor Name", label: false %>
+              <%= f.input :language, as: :string, placeholder: "Enter Actor Name", label: false %>
             </div>
           </div>
           <div class="col-7">
@@ -182,7 +182,7 @@
         <div class="row">
           <div class="col">
             <div class="mb-3">
-            <%= f.input :language, as: :string, placeholder: "Enter Actor Name", label: false %>
+              <%= f.input :language, as: :string, placeholder: "Enter Actor Name", label: false %>
             </div>
           </div>
           <div class="col-7">
@@ -256,7 +256,7 @@
       </div>
       <!-- *** These buttons aren't functional *** -->
       <div class="col">
-        <div class="btn btn-poster"> 
+        <div class="btn btn-poster">
           <img src="/assets/movieposter2.png" alt="Upload Movie Poster">
         </div>
       </div>
