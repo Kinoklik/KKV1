@@ -253,7 +253,7 @@ div.home-content {
   margin-left: 18px;
   top: 3px;
 }
-.btn {
+.btn-purple {
   background-color: #591398; /* Blue background */
   border: white 2px;
   color: white; /* White text */
@@ -267,11 +267,11 @@ div.home-content {
   margin-left: 20px;
   margin-right: 20px;
 }
-.btn:hover {
+.btn-purple:hover {
   background-color: #501088;
   color: #fff;
 }
-h6 {
+.see-all {
   float: right;
   text-decoration: underline;
 }
@@ -318,7 +318,7 @@ h6 a {
   // border: 4px solid transparent;
   // box-shadow: 0 0 0 3px white;
 }
-h4 {
+.section-heading {
   margin-top: 60px;
 }
 // extras button styling
